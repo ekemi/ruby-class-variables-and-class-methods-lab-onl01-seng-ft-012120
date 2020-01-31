@@ -13,7 +13,7 @@ class Song
     @artist =artist
     
     @@count+=1
-    @@artist << artist
+    @@artists << artist
   end
   
   def name 
